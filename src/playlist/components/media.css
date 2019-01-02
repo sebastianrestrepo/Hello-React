@@ -1,0 +1,37 @@
+.Media {
+  cursor: pointer;
+  margin-right: 15px;
+  display: inline-block;
+  width: 260px;
+  vertical-align: top;
+}
+
+.Media:hover .Media-cover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Media-cover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  height: 160px;
+}
+
+.Media-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Media-title {
+  margin: 5px 0 0 0;
+  color: #44546b;
+  white-space: normal;
+}
+
+.Media-author {
+  font-size: 12px;
+  margin: 5px 0 0 0;
+}
+/*# sourceMappingURL=media.css.map */
